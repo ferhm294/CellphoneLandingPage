@@ -27,7 +27,7 @@ Este proyecto es una demostración de conocimientos básicos en **HTML, CSS y Ja
 ## Autor
 Fernando Hernandez
 
-##Licencia
+## Licencia
 Licencia MIT
 
 Derechos de Autor (c) [2025] [Fernando Hernández]
