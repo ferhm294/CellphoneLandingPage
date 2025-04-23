@@ -1,0 +1,205 @@
+/* Paleta de colores que se utilizó: https://colorhunt.co/palette/0719520b666a35a29f97feed */
+
+:root {
+    --main-bg-color: white;
+    --text-color: #071952;
+    --input-bg-color: #0B666A;
+    --button-bg-color: #0B666A;
+    --button-txt-color: #97FEED;
+    --input-txt-color: #97FEED;
+    --table-border: var(--button-bg-color);
+    --link: var(--text-color);
+    --visited-link: var(--button-bg-color);
+    --hover-link: var(--text-color);
+}
+
+* {
+    background-color: var(--main-bg-color);
+    margin: 0px;    
+}
+
+h1, h2, p, table, thead {
+    font-family: "times new roman", verdana, helvetica; /* Necesito verificar la compatibilidad de la tipografía*/
+    color: var(--text-color);
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+h2, thead {
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+}
+
+p {
+    font-size: 18px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+table {
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table, th, td {
+    border: 3px dotted var(--table-border);
+    border-left: none;
+    border-right: none;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: bold;
+    width: 275px;
+}
+
+caption {
+    caption-side: bottom;
+}
+
+#newsletter {
+    text-align: center;
+}
+
+input {
+    border-radius: 8px;
+    border-style: dashed;
+    font-size: medium;
+    color: var(--input-txt-color);
+    background-color: var(--input-bg-color);
+    opacity: 95%;
+}
+
+button {
+    background-color: var(--button-bg-color);
+    color: var(--button-txt-color);
+    border-radius: 8px;
+    border-style: none;
+    font-size: medium;
+    font-style: bold;
+    cursor: pointer;
+    opacity: 95%;
+}
+
+a {
+    color: var(--link);
+}
+
+a:visited {
+    color: var(--visited-link);
+}
+
+a:hover {
+    color: var(--hover-link);
+}
+
+section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-banner {
+    margin: 0 auto;
+    width: 100% auto;
+    height: 400px;
+    background-color: var(--main-bg-color);
+    overflow: hidden;
+    position: relative;
+}
+
+.main-banner .imgban {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    transition: all ease-in-out 500ms;
+    -webkit-transition: all ease-in-out 500ms;
+    -moz-transition: all ease-in-out 500ms;
+    -o-transition: all ease-in-out 500ms;
+}
+
+.main-banner #imgban3 {
+    background-image: url(img/img3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-banner #imgban2 {
+    background-image: url(img/img2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-banner #imgban1 {
+    background-image: url(img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-banner .imgban h1 {
+    background: none;
+}
+
+#storeimg {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    height: 30%;
+    float: left;
+}
+
+#aboutUs_P {
+    text-align: left;
+}
+
+#aboutUsCont {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+/*Media Queries*/
+
+/*Tablet REVISAR WIDTH DE PANTALLA*/
+@media only screen and (max-width: 810px) {
+    .main-banner {
+        height: 250px;
+    }
+    
+    #storeimg {
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+    }
+
+    th {
+        min-width: 200px;
+    }
+
+    #sectionTable {
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+}
+
+/*Mobile REVISAR WIDTH DE PANTALLA*/
+/*375 px for mobile*/
+@media only screen and (max-width: 428px) {
+    .main-banner {
+        height: 200px;
+    }
+}
