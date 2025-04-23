@@ -1,6 +1,6 @@
 # Promoción de Celulares - Página de Inicio
 
-Este proyecto es una demostración de conocimientos básicos en **HTML, CSS y JavaScript**, donde se desarrolla una página de inicio para promocionar celulares. Se utilizó **HTML** para estructurar la página y definir el marcado semántico. **CSS** se aplicó para estilizar el diseño, agregar media queries y hacer la página **responsive** de manera manual. **JavaScript** se empleó para animar un banner superior, que se desplaza automáticamente y se pausa al colocar el cursor sobre él, retomando el ciclo al retirar el cursor.
+Este proyecto es una demostración de conocimientos básicos en **HTML, CSS y JavaScript**, donde se desarrolla una página de inicio para promocionar celulares. Se utilizó **HTML** para estructurar la página y definir el marcado semántico. **CSS** se aplicó para estilizar el diseño, agregar media queries y hacer la página **adaptable** de manera manual. **JavaScript** se empleó para animar un banner superior, que se desplaza automáticamente y se pausa al colocar el cursor sobre él, retomando el ciclo al retirar el cursor.
 
 ## 📂 Estructura del Proyecto
 
@@ -20,7 +20,7 @@ Este proyecto es una demostración de conocimientos básicos en **HTML, CSS y Ja
 
 1. Clona el repositorio:  
    ```sh
-   git clone https://github.com/tu-usuario/promocion-celulares.git
+   git clone https://github.com/ferhm294/CellphoneLandingPage
 2. Abre el archivo index.html en tu navegador.
 3. Explora la página y prueba la animación del banner.
 
